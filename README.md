@@ -8,7 +8,7 @@ Verifik is leading the innovation in passwordless logins and authentication usin
 The solution must include:
 
 1. A simple API using Restify.js (this is the framework we are using at the moment)
-2. Utilize the openSource library for WebAuthN
+2. Utilize the openSource library for WebAuthN (You have to code the Cross platform and the Platform (TPM) solution )
 3. a simple login and registration form using WebAuthN (You can use any frontend framework or plain JavaScript)
 4. To Store the users you can use any DB (we utilize MongoDB in Verifik)
 
