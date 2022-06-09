@@ -12,6 +12,9 @@ The solution must include:
 3. a simple login and registration form using WebAuthN (You can use any frontend framework or plain JavaScript)
 4. To Store the users you can use any DB (we utilize MongoDB in Verifik)
 
+Remember that the authentication has to be verified by the server which provides the `challenge`, the test would be incomplete if the backend don't confirm the validity of the response and everything is on the frontend.
+
+
 Bonus points:
 1. Create a docker container with the solution specified
 2. Create documentation including how to run the docker container, how to register and login, and how WebAuthN works with the API
